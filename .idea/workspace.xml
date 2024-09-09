@@ -47,30 +47,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.pytest for test_createaccount.TestCreateAccount.executor": "Run",
-    "Python tests.pytest for test_createaccount.TestCreateAccount.test_create_account.executor": "Run",
-    "Python tests.pytest for test_createaccount.test_create_account.executor": "Run",
-    "Python tests.pytest for test_createaccount.test_create_account_with_all_fields.executor": "Run",
-    "Python tests.pytest for test_createaccount.test_create_account_with_custom_fields.executor": "Run",
-    "Python tests.pytest for test_createaccount.test_create_account_without_optional_fields.executor": "Run",
-    "Python tests.pytest for test_login.test_login.executor": "Run",
-    "Python tests.pytest in test_createaccount.py.executor": "Run",
-    "Python tests.pytest in test_login.py.executor": "Run",
-    "Python tests.pytest in test_start.py.executor": "Run",
-    "Python.models.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest for test_createaccount.TestCreateAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.TestCreateAccount.test_create_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.test_create_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.test_create_account_with_all_fields.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.test_create_account_with_custom_fields.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.test_create_account_without_optional_fields.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_login.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_createaccount.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_login.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_start.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.models.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test_page/test_ui" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest for test_createaccount.test_create_account">
     <configuration name="pytest for test_createaccount.TestCreateAccount.test_create_account" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Site_Automationexercise" />
       <option name="ENV_FILES" value="" />
