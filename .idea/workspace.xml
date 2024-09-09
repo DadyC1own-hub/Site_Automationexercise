@@ -4,24 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3c57c9c-08b3-4d6b-b233-4eba05e04c9f" name="Changes" comment="Version 1.0">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Site_Automationexercise.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/api_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/assertions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/create_account_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataModel/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_api/test_createaccount.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_ui/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_ui/test_registerUser.py" afterDir="false" />
+    <list default="true" id="53e9d5d6-3d65-4f50-b4b7-c5a72ebf8a27" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/API_client_get_all_products.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/GetAllProducts_API.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_api/test_get_all_products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Site_Automationexercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Site_Automationexercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/assertions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/create_account_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/create_account_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataModel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataModel/CreateAccount_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/test_createaccount.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api/test_createaccount.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,39 +33,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2lmDYyFAddlQ3eWtGKAauwDHow6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2lp2qPYfQPrT0JdkVtv60SbnUtQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.pytest for test_createaccount.TestCreateAccount.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_createaccount.TestCreateAccount.test_create_account.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_createaccount.test_create_account.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_createaccount.test_create_account_with_all_fields.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_createaccount.test_create_account_with_custom_fields.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_createaccount.test_create_account_without_optional_fields.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_login.test_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_createaccount.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_login.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_start.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.models.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_get_all_products.test_get_all_products_list.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test_page/test_ui" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python tests.pytest for test_createaccount.test_create_account">
-    <configuration name="pytest for test_createaccount.TestCreateAccount.test_create_account" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Python tests for test_get_all_products.test_get_all_products_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Site_Automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,88 +59,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_createaccount.TestCreateAccount.test_create_account&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_createaccount.test_create_account" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Site_Automationexercise" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_createaccount.test_create_account&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_createaccount.test_create_account_with_all_fields" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Site_Automationexercise" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_createaccount.test_create_account_with_all_fields&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_createaccount.test_create_account_with_custom_fields" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Site_Automationexercise" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_createaccount.test_create_account_with_custom_fields&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_createaccount.test_create_account_without_optional_fields" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Site_Automationexercise" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_createaccount.test_create_account_without_optional_fields&quot;" />
+      <option name="_new_target" value="&quot;test_get_all_products.test_get_all_products_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_createaccount.test_create_account" />
-        <item itemvalue="Python tests.pytest for test_createaccount.test_create_account_with_custom_fields" />
-        <item itemvalue="Python tests.pytest for test_createaccount.test_create_account_without_optional_fields" />
-        <item itemvalue="Python tests.pytest for test_createaccount.test_create_account_with_all_fields" />
-        <item itemvalue="Python tests.pytest for test_createaccount.TestCreateAccount.test_create_account" />
+        <item itemvalue="Python tests.Python tests for test_get_all_products.test_get_all_products_list" />
       </list>
     </recent_temporary>
   </component>
@@ -176,19 +80,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e3c57c9c-08b3-4d6b-b233-4eba05e04c9f" name="Changes" comment="" />
-      <created>1725776411938</created>
+      <changelist id="53e9d5d6-3d65-4f50-b4b7-c5a72ebf8a27" name="Changes" comment="" />
+      <created>1725862887681</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725776411938</updated>
+      <updated>1725862887681</updated>
     </task>
     <servers />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0" />
   </component>
 </project>

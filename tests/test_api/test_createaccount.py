@@ -1,4 +1,4 @@
-from dataModel.models import CreateAccountRequest
+from dataModel.CreateAccount_models import CreateAccountRequest
 from api.assertions import assert_status_code, assert_message
 
 
