@@ -1,4 +1,4 @@
-from api.assertions import assert_status_code, assert_message
+from api.assertions_api import assert_status_code, assert_json_field
 
 
 def test_get_all_products_list(api_client_get_all_product):
@@ -9,4 +9,4 @@ def test_get_all_products_list(api_client_get_all_product):
     # Используем функции для проверки статуса и сообщения
     assert_status_code(response, 200)
     # Знаю знаю но пока пускай будет
-    #assert_message(response, "All products list") - чисто даун не знает что значит "All products list"
+    #assert_json_field(response, "All products list") - чисто даун не знает что значит "All products list"

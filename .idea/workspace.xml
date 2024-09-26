@@ -4,18 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53e9d5d6-3d65-4f50-b4b7-c5a72ebf8a27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/API_client_get_all_products.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/GetAllProducts_API.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_api/test_get_all_products.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Site_Automationexercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Site_Automationexercise.iml" afterDir="false" />
+    <list default="true" id="53e9d5d6-3d65-4f50-b4b7-c5a72ebf8a27" name="Changes" comment="Add second test - Get_All_Account_List">
+      <change afterPath="$PROJECT_DIR$/tests/api/test_createaccount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_post_all_products.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/assertions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/create_account_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/create_account_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/API_client_get_all_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/get_all_products_api_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/GetAllProducts_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/get_all_products_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/create_account_api_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/assertions_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataModel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataModel/CreateAccount_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataModel/CreateAccount_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_models/create_account_models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_api/test_createaccount.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api/test_createaccount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/test_createaccount.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/test_get_all_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/test_get_all_products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_ui/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ui/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_ui/test_registerUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ui/test_registerUser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,33 +43,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_get_all_products.test_get_all_products_list.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_get_all_products.test_get_all_products_list.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="Python tests for test_get_all_products.test_get_all_products_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.api.test_get_all_products.test_get_all_products_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Site_Automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_get_all_products.test_get_all_products_list&quot;" />
+      <option name="_new_target" value="&quot;tests.api.test_get_all_products.test_get_all_products_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_get_all_products.test_get_all_products_list" />
+        <item itemvalue="Python tests.Python tests for tests.api.test_get_all_products.test_get_all_products_list" />
       </list>
     </recent_temporary>
   </component>
@@ -86,6 +89,19 @@
       <option name="presentableId" value="Default" />
       <updated>1725862887681</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add second test - Get_All_Account_List">
+      <option name="closed" value="true" />
+      <created>1725888254071</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725888254071</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add second test - Get_All_Account_List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add second test - Get_All_Account_List" />
   </component>
 </project>
