@@ -1,0 +1,5 @@
+pytest tests/test_api -k "test_verify_login.py"
+pytest tests/test_api -k "test_createaccount.py"
+
+pytest --alluredir=./allure-results && allure serve ./allure-results
+

@@ -24,7 +24,7 @@ class CreateAccountRequest(BaseModel):
     @staticmethod
     def get_default(
             name: str = "Mr",
-            email: str = "testuser@example.com",
+            email: str = "dadyclown@example.com",
             password: str = "password123",
             title: str = "Mr",
             birth_date: Optional[str] = "01",
@@ -65,3 +65,18 @@ class CreateAccountRequest(BaseModel):
 
 class CreateAccountResponse(BaseModel):
     message: str
+
+class VerifyLoginRequest(BaseModel):
+    email: str
+    password: str
+
+    @staticmethod
+    def get_default(
+            email: str = "dadyclown@example.com",
+            password: str = "password123",
+    ) -> 'VerifyLoginRequest':
+        # Создаем экземпляр модели с переданными значениями
+        return VerifyLoginRequest(
+            email=email,
+            password=password,
+        )

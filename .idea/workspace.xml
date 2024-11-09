@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53e9d5d6-3d65-4f50-b4b7-c5a72ebf8a27" name="Changes" comment="Add second test - Get_All_Account_List">
-      <change afterPath="$PROJECT_DIR$/tests/api/test_createaccount.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/test_post_all_products.py" afterDir="false" />
+    <list default="true" id="e3c57c9c-08b3-4d6b-b233-4eba05e04c9f" name="Changes" comment="Добавлены 2 метода API 12: DELETE METHOD To Delete User Account и API 7: POST To Verify Login with valid details">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/API_client_get_all_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/get_all_products_api_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/GetAllProducts_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/get_all_products_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/create_account_api_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/assertions_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataModel/CreateAccount_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_models/create_account_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_api/test_createaccount.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_api/test_get_all_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/test_get_all_products.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ui/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ui/test_registerUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ui/test_registerUser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,75 +21,246 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
 }</component>
-  <component name="ProjectId" id="2lp2qPYfQPrT0JdkVtv60SbnUtQ" />
+  <component name="GitLabDefaultAccount">
+    <option name="defaultAccountId" value="8ec5e119-bc76-46f4-97e2-51a667ab82bb" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="f7111a20-a6c9-4911-a91f-a615ea6e8e0a" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DadyC1own-hub/Site_Automationexercise&quot;,
+    &quot;accountId&quot;: &quot;f7111a20-a6c9-4911-a91f-a615ea6e8e0a&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;MyasVal&quot;,
+    &quot;repository&quot;: &quot;Site_Automationexercise&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2lmDYyFAddlQ3eWtGKAauwDHow6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_get_all_products.test_get_all_products_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.TestCreateAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.TestCreateAccount.test_create_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.test_create_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.test_create_account_with_all_fields.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.test_create_account_with_custom_fields.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.test_create_account_without_optional_fields.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_login.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_verify_login.test_create_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_createaccount.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_login.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_start.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.models.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;popitka__2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dadyc1own/PycharmProjects/Site_Automationexercise/api&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Python tests for tests.api.test_get_all_products.test_get_all_products_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api" />
+      <recent name="$PROJECT_DIR$/tests/test_api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_page/test_ui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_verify_login.test_create_account">
+    <configuration name="pytest for test_createaccount.test_create_account" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Site_Automationexercise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.api.test_get_all_products.test_get_all_products_list&quot;" />
+      <option name="_new_target" value="&quot;test_createaccount.test_create_account&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_createaccount.test_create_account_with_all_fields" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Site_Automationexercise" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_createaccount.test_create_account_with_all_fields&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_createaccount.test_create_account_with_custom_fields" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Site_Automationexercise" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_createaccount.test_create_account_with_custom_fields&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_createaccount.test_create_account_without_optional_fields" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Site_Automationexercise" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_createaccount.test_create_account_without_optional_fields&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_verify_login.test_create_account" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Site_Automationexercise" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_verify_login.test_create_account&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for tests.api.test_get_all_products.test_get_all_products_list" />
+        <item itemvalue="Python tests.pytest for test_verify_login.test_create_account" />
+        <item itemvalue="Python tests.pytest for test_createaccount.test_create_account" />
+        <item itemvalue="Python tests.pytest for test_createaccount.test_create_account_with_custom_fields" />
+        <item itemvalue="Python tests.pytest for test_createaccount.test_create_account_without_optional_fields" />
+        <item itemvalue="Python tests.pytest for test_createaccount.test_create_account_with_all_fields" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="53e9d5d6-3d65-4f50-b4b7-c5a72ebf8a27" name="Changes" comment="" />
-      <created>1725862887681</created>
+      <changelist id="e3c57c9c-08b3-4d6b-b233-4eba05e04c9f" name="Changes" comment="" />
+      <created>1725776411938</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725862887681</updated>
+      <updated>1725776411938</updated>
     </task>
-    <task id="LOCAL-00001" summary="Add second test - Get_All_Account_List">
+    <task id="LOCAL-00001" summary="Version 1.0">
       <option name="closed" value="true" />
-      <created>1725888254071</created>
+      <created>1725810405580</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1725888254071</updated>
+      <updated>1725810405580</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавлены 2 метода API 12: DELETE METHOD To Delete User Account и API 7: POST To Verify Login with valid details">
+      <option name="closed" value="true" />
+      <created>1731176139488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731176139488</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавлены 2 метода API 12: DELETE METHOD To Delete User Account и API 7: POST To Verify Login with valid details">
+      <option name="closed" value="true" />
+      <created>1731176154301</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731176154301</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Добавлены 2 метода API 12: DELETE METHOD To Delete User Account и API 7: POST To Verify Login with valid details">
+      <option name="closed" value="true" />
+      <created>1731176717012</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731176717012</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add second test - Get_All_Account_List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add second test - Get_All_Account_List" />
+    <MESSAGE value="Version 1.0" />
+    <MESSAGE value="Добавлены 2 метода API 12: DELETE METHOD To Delete User Account и API 7: POST To Verify Login with valid details" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены 2 метода API 12: DELETE METHOD To Delete User Account и API 7: POST To Verify Login with valid details" />
   </component>
 </project>
