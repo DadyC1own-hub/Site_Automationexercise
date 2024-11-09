@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3c57c9c-08b3-4d6b-b233-4eba05e04c9f" name="Changes" comment="Version 1.0">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/create_account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/delete_account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_api/test_delete_account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_api/test_verify_login.py" afterDir="false" />
+    <list default="true" id="e3c57c9c-08b3-4d6b-b233-4eba05e04c9f" name="Changes" comment="Добавлены 2 метода API 12: DELETE METHOD To Delete User Account и API 7: POST To Verify Login with valid details">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/assertions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/create_account_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/verify_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataModel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataModel/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_api/test_createaccount.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api/test_createaccount.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +29,26 @@
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;MyasVal&quot;
+    &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="f7111a20-a6c9-4911-a91f-a615ea6e8e0a" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/MyasVal/Site_Automationexercise.git&quot;,
-    &quot;accountId&quot;: &quot;ba341c53-412f-4f71-b34d-77ba8eadea56&quot;
+    &quot;accountId&quot;: &quot;f7111a20-a6c9-4911-a91f-a615ea6e8e0a&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;MyasVal&quot;,
+    &quot;repository&quot;: &quot;Site_Automationexercise&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -62,27 +63,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.pytest for test_createaccount.TestCreateAccount.executor": "Run",
-    "Python tests.pytest for test_createaccount.TestCreateAccount.test_create_account.executor": "Run",
-    "Python tests.pytest for test_createaccount.test_create_account.executor": "Run",
-    "Python tests.pytest for test_createaccount.test_create_account_with_all_fields.executor": "Run",
-    "Python tests.pytest for test_createaccount.test_create_account_with_custom_fields.executor": "Run",
-    "Python tests.pytest for test_createaccount.test_create_account_without_optional_fields.executor": "Run",
-    "Python tests.pytest for test_login.test_login.executor": "Run",
-    "Python tests.pytest for test_verify_login.test_create_account.executor": "Run",
-    "Python tests.pytest in test_createaccount.py.executor": "Run",
-    "Python tests.pytest in test_login.py.executor": "Run",
-    "Python tests.pytest in test_start.py.executor": "Run",
-    "Python.models.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "popitka__2",
-    "last_opened_file_path": "/home/dadyc1own/PycharmProjects/Site_Automationexercise/api",
-    "settings.editor.selected.configurable": "preferences.sourceCode.YAML"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest for test_createaccount.TestCreateAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.TestCreateAccount.test_create_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.test_create_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.test_create_account_with_all_fields.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.test_create_account_with_custom_fields.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_createaccount.test_create_account_without_optional_fields.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_login.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_verify_login.test_create_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_createaccount.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_login.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_start.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.models.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;popitka__2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dadyc1own/PycharmProjects/Site_Automationexercise/api&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaHighlightedReportService">
     <option name="localRunNotPublishedPersistedInfo">
       <LocalReportPersistedInfo>
@@ -229,14 +230,42 @@
       <option name="project" value="LOCAL" />
       <updated>1725810405580</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавлены 2 метода API 12: DELETE METHOD To Delete User Account и API 7: POST To Verify Login with valid details">
+      <option name="closed" value="true" />
+      <created>1731176139488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731176139488</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавлены 2 метода API 12: DELETE METHOD To Delete User Account и API 7: POST To Verify Login with valid details">
+      <option name="closed" value="true" />
+      <created>1731176154301</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731176154301</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0" />
+    <MESSAGE value="Добавлены 2 метода API 12: DELETE METHOD To Delete User Account и API 7: POST To Verify Login with valid details" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены 2 метода API 12: DELETE METHOD To Delete User Account и API 7: POST To Verify Login with valid details" />
   </component>
 </project>
