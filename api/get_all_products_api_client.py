@@ -1,4 +1,4 @@
-from api.get_all_products_api import GetAllProductsAPI
+from api.get_all_products import GetAllProductsAPI
 
 
 

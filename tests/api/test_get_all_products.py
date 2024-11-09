@@ -1,4 +1,4 @@
-from api.assertions_api import assert_status_code, assert_json_field
+from api.assertions import assert_status_code, assert_json_field
 
 
 def test_get_all_products_list(api_client_get_all_product):
