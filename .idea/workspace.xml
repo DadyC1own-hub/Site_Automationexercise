@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3c57c9c-08b3-4d6b-b233-4eba05e04c9f" name="Changes" comment="Добавлены 2 метода API 12: DELETE METHOD To Delete User Account и API 7: POST To Verify Login with valid details">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +33,15 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
+  <component name="GitLabDefaultAccount">
+    <option name="defaultAccountId" value="8ec5e119-bc76-46f4-97e2-51a667ab82bb" />
+  </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="f7111a20-a6c9-4911-a91f-a615ea6e8e0a" />
   </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MyasVal/Site_Automationexercise.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/DadyC1own-hub/Site_Automationexercise&quot;,
     &quot;accountId&quot;: &quot;f7111a20-a6c9-4911-a91f-a615ea6e8e0a&quot;
   },
   &quot;recentNewPullRequestHead&quot;: {
@@ -81,26 +85,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;popitka__2&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/dadyc1own/PycharmProjects/Site_Automationexercise/api&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable&quot;
   }
 }</component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="/tmp/qodana_output/qodana.sarif.json" />
-        <option name="reportGuid" value="c854b532-8038-4d59-b2c4-b777a84fd8fa" />
-        <option name="reportName" value="Site_Automationexercise/qodana/2024-11-09" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
-  <component name="QodanaReportsService">
-    <option name="descriptions">
-      <ReportDescription localRun="true" path="/tmp/qodana_output/qodana.sarif.json" reportGuid="c854b532-8038-4d59-b2c4-b777a84fd8fa" reportId="Site_Automationexercise/qodana/2024-11-09" />
-    </option>
-  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/api" />
@@ -246,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731176154301</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавлены 2 метода API 12: DELETE METHOD To Delete User Account и API 7: POST To Verify Login with valid details">
+      <option name="closed" value="true" />
+      <created>1731176717012</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731176717012</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
